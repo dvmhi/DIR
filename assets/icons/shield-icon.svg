@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Schild Icon</title>
+  <path d="M32 6l22 9v16c0 15-9 25-22 31C19 56 10 46 10 31V15l22-9z" fill="#2756d8"/>
+  <path d="M22 32l7 7 15-17" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

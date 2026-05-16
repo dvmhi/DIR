@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">bestauth Logo</title>
+  <desc id="desc">Blaues Schild mit Punktcode</desc>
+  <rect width="64" height="64" rx="16" fill="#2756d8"/>
+  <path d="M32 10l17 7v12c0 12-7 20-17 25-10-5-17-13-17-25V17l17-7z" fill="#fff" opacity=".95"/>
+  <circle cx="25" cy="28" r="3" fill="#2756d8"/>
+  <circle cx="32" cy="28" r="3" fill="#2756d8"/>
+  <circle cx="39" cy="28" r="3" fill="#2756d8"/>
+  <rect x="24" y="38" width="16" height="4" rx="2" fill="#2756d8"/>
+</svg>
