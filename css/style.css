@@ -98,7 +98,8 @@ select:focus-visible {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--text);
+  color: #0d0198;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
@@ -233,16 +234,6 @@ h3 {
   font-size: 14px;
 }
 
-.kicker {
-  display: inline-block;
-  background: rgba(39, 86, 216, 0.12);
-  color: var(--darkblue);
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
 /* Button behaviour */
 
 .actions {
@@ -302,6 +293,45 @@ h3 {
   box-shadow: 0 10px 25px rgba(20, 32, 51, 0.08);
 }
 
+.brand-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-preview {
+  margin-top: auto;
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.wordmark-preview {
+  color: #0d0198;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.logo-preview {
+  width: 76px;
+  height: 76px;
+}
+
+.color-preview {
+  gap: 12px;
+  font-weight: 700;
+}
+
+.color-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  background: #0d0198;
+  border: 1px solid var(--border);
+}
+
 .form-card {
   background: var(--box);
   border: 1px solid var(--border);
@@ -347,16 +377,13 @@ h3 {
   font-size: 19px;
 }
 
-.placeholder-media {
+.page-image {
+  width: 100%;
   min-height: 220px;
-  border: 2px dashed var(--border);
+  height: 100%;
+  object-fit: cover;
   border-radius: 16px;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 16px;
-  color: var(--muted);
-  background: rgba(39, 86, 216, 0.04);
+  box-shadow: 0 10px 25px rgba(20, 32, 51, 0.08);
 }
 
 /*Prices bzw Listen*/

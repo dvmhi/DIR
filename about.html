@@ -19,12 +19,8 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="product.html">Produkt</a></li>
         <li><a href="shop.html">Shop</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="license.html">Lizenz</a></li>
-        <li><a href="privacy.html">Datenschutz</a></li>
-        <li><a href="accessibility.html">Barrierefreiheit</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
         <li><a href="contact.html">Kontakt</a></li>
-        <li><a href="imprint.html">Impressum</a></li>
       </ul>
     </nav>
     <div class="header-actions">
@@ -35,11 +31,9 @@
 <main id="main">
   <section class="page-header">
     <div class="container">
-      <span class="kicker">About us</span>
       <h1>Über bestauth Software e.U.</h1>
       <p class="lead">
-        bestauth Software e.U. ist ein fiktives Start-up mit Standort Wien.
-        Das Unternehmen entwickelt Authenticator-Software für Privatpersonen
+        bestauth Software e.U. ist ein fiktives Start-up aus Wien welches Authenticator-Software entwickelt für Privatpersonen
         und kleine Teams.
       </p>
     </div>
@@ -54,9 +48,7 @@
         <p>Fokus: einfache Bedienung, Datenschutz und benutzerfreundliche Gestaltung.</p>
       </div>
 
-      <div class="placeholder-media" role="img" aria-label="Platzhalter für Teamfoto">
-        <p>Platzhalter für Teamfoto</p>
-      </div>
+      <img class="page-image" src="assets/images/team.png" alt="Team von bestauth">
     </div>
   </section>
 
@@ -65,29 +57,37 @@
       <h2>Markenformen</h2>
 
       <div class="grid">
-        <article class="card">
+        <article class="card brand-card">
           <h3>Wortmarke: bestauth</h3>
           <p>
             Der Name soll ausdrücken, dass es um eine bessere und einfachere
             Verwaltung von Authentifizierungscodes geht.
           </p>
+          <div class="brand-preview wordmark-preview">bestauth</div>
         </article>
 
-        <article class="card">
+        <article class="card brand-card">
           <h3>Bildmarke: Schild mit Codepunkten</h3>
           <p>
-            Das Schild steht für Schutz. Die Punkte stehen für digitale Codes
+            Das Schild steht für Schutz und die Punkte stehen für digitale Codes
             und Login-Sicherheit.
           </p>
+          <div class="brand-preview">
+            <img class="logo-preview" src="assets/icons/logo.svg" alt="Bildmarke von bestauth">
+          </div>
         </article>
 
-        <article class="card">
+        <article class="card brand-card">
           <h3>Farbmarke: Dunkelblau #0d0198</h3>
           <p>
-            Die Farbe Dunkelblau wird auf der Website und in der App immer wieder
-            verwendet. Sie soll für Sicherheit und Vertrauen stehen und als
-            Wiedererkennungsmerkmal von bestauth dienen.
+            Dunkelblau wird auf der Website und in der App immer wieder
+            verwendet und steht für für Sicherheit, Vertrauen und als
+            Wiedererkennungsmerkmal.
           </p>
+          <div class="brand-preview color-preview">
+            <span class="color-box" aria-hidden="true"></span>
+            <span>#0d0198</span>
+          </div>
         </article>
       </div>
     </div>
@@ -121,15 +121,17 @@
   <div class="footer-inner">
     <p>&copy; 2026 bestauth Software e.U. </p>
     <div class="footer-links">
-      <a href="media-licenses.html">Medienlizenzen</a>
+      <a href="media-licenses.html">Urheberrecht</a>
+      <a href="license.html">Lizenz</a>
       <a href="privacy.html">Datenschutz</a>
+      <a href="accessibility.html">Barrierefreiheit</a>
       <a href="imprint.html">Impressum</a>
     </div>
   </div>
 </footer>
 <div class="cookie-banner" hidden>
   <h2>Cookie-Hinweis</h2>
-  <p>Diese Website verwendet notwendige Cookies, damit grundlegende Funktionen wie Navigation, Warenkorb und Cookie-Einstellungen funktionieren. Du kannst deine Auswahl jederzeit ändern.</p>
+  <p>Diese Website verwendet notwendige Cookies, damit Navigation, Warenkorb, Dark Mode und Cookie-Einstellungen funktionieren. Zusätzliche Analyse-Cookies werden nur beispielhaft als Mockup dargestellt und nicht tatsächlich gesetzt. Du kannst deine Auswahl jederzeit ändern.</p>
   <div class="actions">
     <button class="button button-primary" type="button" data-cookie-choice="all">Alle akzeptieren</button>
     <button class="button button-secondary" type="button" data-cookie-choice="necessary">Nur notwendige Cookies</button>
