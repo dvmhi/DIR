@@ -162,6 +162,10 @@ button,
   padding: 48px 0 16px;
 }
 
+.page-header + .section {
+  padding-top: 16px;
+}
+
 .page-header h1 {
   margin-bottom: 8px;
 }
