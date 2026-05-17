@@ -1,25 +1,3 @@
-const themeButton = document.querySelector(".theme-toggle");
-let theme = localStorage.getItem("bestauth-theme");
-
-if (theme) {
-  document.documentElement.setAttribute("data-theme", theme);
-}
-
-if (themeButton) {
-  themeButton.onclick = function () {
-    let currentTheme = document.documentElement.getAttribute("data-theme");
-
-    if (currentTheme === "dark") {
-      document.documentElement.setAttribute("data-theme", "light");
-      localStorage.setItem("bestauth-theme", "light");
-    } else {
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.setItem("bestauth-theme", "dark");
-    }
-  };
-}
-
-
 const cookieBanner = document.querySelector(".cookie-banner");
 const cookieButtons = document.querySelectorAll("[data-cookie-choice]");
 
